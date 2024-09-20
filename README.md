@@ -1,30 +1,49 @@
-# React + TypeScript + Vite
+# Game Hub
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Game Hub is a game discovery platform designed to help users explore and find new games across various genres and platforms. Users can browse through a rich library of games, read reviews, see ratings, and get recommendations based on their preferences.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **Game Search**: Search for games by title, genre, or platform.
+- **Recommendations**: Personalized game recommendations based on your preferences.
+- **Reviews & Ratings**: View community-driven reviews and ratings for each game.
+- **Detailed Game Information**: Get in-depth information about each game, including release dates, platforms, genres, and trailers.
 
-- Configure the top-level `parserOptions` property like this:
+## Tech Stack
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+- **React.js**
+
+## Installation
+
+1. **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/Cyberkid-30/game-hub.git
+
+   ```
+
+2. **Navigate into project directory**:
+
+```bash
+cd game-hub
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+3. **Install dependencies**:
+
+```bash
+npm install
+```
+
+4. **Run the app**:
+
+```bash
+npm run dev
+```
