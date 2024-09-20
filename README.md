@@ -32,18 +32,18 @@ Game Hub is a game discovery platform designed to help users explore and find ne
 
 2. **Navigate into project directory**:
 
-```bash
-cd game-hub
-```
+   ```bash
+   cd game-hub
+   ```
 
 3. **Install dependencies**:
 
-```bash
-npm install
-```
+   ```bash
+   npm install
+   ```
 
 4. **Run the app**:
 
-```bash
-npm run dev
-```
+   ```bash
+   npm run dev
+   ```
