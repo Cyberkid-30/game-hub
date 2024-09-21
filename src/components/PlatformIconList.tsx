@@ -9,12 +9,12 @@ import {
 import { MdPhoneIphone } from "react-icons/md";
 import { SiNintendo } from "react-icons/si";
 import { BsGlobe } from "react-icons/bs";
-import { Plaform } from "../hooks/useGames";
 import { HStack, Icon } from "@chakra-ui/react";
 import { IconType } from "react-icons";
+import { Platform } from "../hooks/useGames";
 
 interface Props {
-  plaforms: Plaform[];
+  plaforms: Platform[];
 }
 
 const PlatformIconList = ({ plaforms }: Props) => {
