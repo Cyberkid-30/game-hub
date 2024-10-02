@@ -2,7 +2,7 @@ import { Card, CardBody, HStack, Heading, Image } from "@chakra-ui/react";
 import { Game } from "../entities/Game";
 import getCroppedImageUrl from "../services/image-url";
 import PlatformIconList from "./PlatformIconList";
-import CriricScore from "./CriticScore";
+import CriticStore from "./CriticScore";
 import Emoji from "./Emoji";
 import { Link } from "react-router-dom";
 
@@ -19,7 +19,7 @@ const GameCard = ({ game }: Props) => {
           <PlatformIconList
             plaforms={game.parent_platforms.map((p) => p.platform)}
           />
-          <CriricScore score={game.metacritic} />
+          <CriticStore score={game.metacritic} />
         </HStack>
         <Heading fontSize="2xl">
           <Link to={`/games/${game.slug}`}>{game.name} </Link>{" "}

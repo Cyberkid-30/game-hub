@@ -5,7 +5,7 @@ interface Props {
   score: number;
 }
 
-const CriricScore = ({ score }: Props) => {
+const CriticScore = ({ score }: Props) => {
   const color = score > 75 ? "green" : score > 60 ? "yellow" : "";
 
   return (
@@ -20,4 +20,4 @@ const CriricScore = ({ score }: Props) => {
   );
 };
 
-export default CriricScore;
+export default CriticScore;
