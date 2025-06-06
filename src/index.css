@@ -1,3 +1,11 @@
 form {
-    width: 100%;
+  width: 100%;
+}
+
+.spinner-container {
+  width: 100%;
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
