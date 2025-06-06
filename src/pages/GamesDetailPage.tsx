@@ -10,7 +10,12 @@ const GamesDetailPage = () => {
   const { slug } = useParams();
   const { data: game, isLoading, error } = useGame(slug!);
 
-  if (isLoading) return <Spinner />;
+  if (isLoading)
+    return (
+      <div className="spinner-container">
+        <Spinner />
+      </div>
+    );
   if (error || !game) throw error;
 
   return (
